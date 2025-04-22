@@ -31,7 +31,7 @@ for name in compound_names:
     )
     compounds[name] = {"max_laps": max_laps, "base_time": base_time}
 max_stops = st.sidebar.slider(
-    "Max Pit Stops", min_value=0, max_value=5, value=3
+    "Max Pit Stops", min_value=0, max_value=3, value=2
 )
 
 # --- Helper functions ---
